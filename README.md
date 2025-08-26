@@ -1,23 +1,104 @@
-### Description
+# 🚀 Mohammad Hisam Mohmand - Data Analyst Portfolio
 
-Mohammad Hisam Mohmand's professional portfolio website built with React. A Principal Data Analyst specializing in Search Trust and Safety with 5 years of experience in operational processes and large-scale systems.
+## 📊 Professional Portfolio Website
+
+**Mohammad Hisam Mohmand** - Principal Data Analyst specializing in Search Trust and Safety with 5 years of experience in operational processes and large-scale systems.
+
+### 🎯 About Me
+- **Location**: Seattle, WA
+- **Email**: m77.hisam@gmail.com
+- **Phone**: (206) 530-8402
+- **LinkedIn**: [Mohammad Hisam Mohmand](https://www.linkedin.com/in/mohammad-hisam-mohmand-38813422a/)
+
+### 🎓 Education
+- **Master's Degree**: Data Analytics and Information Management Systems - Arden University, Germany
+- **Bachelor's Degree**: Computer Science - Savitribai Phule Pune University, India
 
 ### [Live Preview](https://hisammohmand.github.io/react-portfolio/)
 
 [![React Portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://hisammohmand.github.io/react-portfolio/)
 
-### Features
+## 🛠️ Technical Skills
+
+### 💻 **Programming Languages & Tools**
+- **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+- **SQL** (Advanced queries, data modeling, optimization)
+- **R** (Statistical analysis, data visualization)
+- **Power BI** (Dashboard creation, data modeling)
+- **Tableau** (Interactive visualizations, storytelling)
+
+### 🎨 **Data Analysis & Visualization**
+- **Statistical Analysis** (Descriptive, Inferential, Predictive)
+- **Machine Learning** (Supervised, Unsupervised, Deep Learning)
+- **Data Visualization** (Charts, Graphs, Interactive Dashboards)
+- **Data Cleaning & Preprocessing** (ETL, Data Quality, Validation)
+
+### ☁️ **Cloud & Big Data**
+- **AWS** (S3, EC2, Lambda, Redshift)
+- **Azure** (Data Factory, Synapse, Power BI)
+- **Apache Spark** (Big data processing, MLlib)
+- **Apache Kafka** (Real-time data streaming)
+
+### 🔧 **DevOps & Monitoring**
+- **Docker** (Containerization, deployment)
+- **Kubernetes** (Orchestration, scaling)
+- **Elasticsearch** (Search, analytics)
+- **Grafana & Prometheus** (Monitoring, alerting)
+
+## 🎨 Portfolio Features
 
 - 🎨 **Professional Design** - Modern, responsive layout with glass water effects
 - 📱 **Fully Responsive** - Optimized for all devices and screen sizes
 - 🚀 **Performance Optimized** - Fast loading with lazy loading and error boundaries
-- 📊 **Interactive Portfolio** - Detailed project pages with glass water layout
+- 📊 **Interactive Portfolio** - 8 detailed project pages with glass water layout
 - 📧 **Contact Form** - Integrated EmailJS for seamless communication
 - 🎯 **SEO Optimized** - Meta tags, structured data, and analytics ready
 - 🔧 **Easy Customization** - Edit content from one central location
 - 📈 **Analytics Ready** - Built-in tracking for user interactions
 
-### Setup
+## 📊 Featured Projects
+
+### 🚗 **Car Sales Descriptive Analysis**
+- **Tools**: Python, Pandas, Matplotlib, Seaborn
+- **Analysis**: Comprehensive car sales data analysis with statistical insights
+- **Impact**: 30% revenue increase through optimized pricing strategies
+
+### 📦 **Amazon Global Sales & Review Analysis**
+- **Tools**: Power BI, Excel, SQL
+- **Analysis**: E-commerce intelligence using real Amazon product data
+- **Impact**: Business insights for product managers and supply chain strategists
+
+### 🛡️ **Trust & Safety Analytics Dashboard**
+- **Tools**: Python, SQL, Tableau
+- **Analysis**: Comprehensive monitoring and analysis of trust and safety metrics
+- **Impact**: Enhanced platform security and user safety
+
+### 🔍 **Predictive Fraud Detection Model**
+- **Tools**: Python, Scikit-learn, Machine Learning
+- **Analysis**: Real-time fraudulent activity detection
+- **Impact**: Improved security and reduced financial losses
+
+### 🔄 **Data Pipeline Automation**
+- **Tools**: Python, Apache Spark, Apache Kafka
+- **Analysis**: Automated data processing pipeline
+- **Impact**: 60% reduction in manual effort, increased operational efficiency
+
+### 🛡️ **Cybersecurity Threat Analysis**
+- **Tools**: Python, Elasticsearch, Grafana
+- **Analysis**: Advanced threat detection and analysis system
+- **Impact**: Enhanced cybersecurity monitoring and response
+
+### 👥 **Customer Behavior Analytics**
+- **Tools**: Python, SQL, Power BI
+- **Analysis**: Deep dive into customer behavior patterns
+- **Impact**: Improved customer targeting and retention strategies
+
+### 📈 **Real-time Data Monitoring**
+- **Tools**: Python, Apache Kafka, Prometheus
+- **Analysis**: Real-time monitoring system for data quality
+- **Impact**: Proactive issue detection and system optimization
+
+## 🚀 Development Setup
 
 1. **Clone the repository**
 ```bash
@@ -72,6 +153,20 @@ npm run deploy
 - Enable gzip compression on your hosting provider
 - Set up CDN for faster global delivery
 
-### Thanks
+## 📞 Contact Information
 
-If you like this portfolio template, don't forget to give it a ⭐ 
+- **📍 Location**: Seattle, WA
+- **📧 Email**: m77.hisam@gmail.com
+- **📱 Phone**: (206) 530-8402
+- **💼 LinkedIn**: [Mohammad Hisam Mohmand](https://www.linkedin.com/in/mohammad-hisam-mohmand-38813422a/)
+- **🐙 GitHub**: [hisammohmand](https://github.com/hisammohmand)
+
+## 🤝 Let's Connect!
+
+I'm always open to discussing new opportunities, collaborations, or just chatting about data science and technology. Feel free to reach out!
+
+---
+
+**Built with ❤️ by Mohammad Hisam Mohmand**
+
+*If you find this portfolio helpful, please give it a ⭐* 
