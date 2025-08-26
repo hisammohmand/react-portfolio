@@ -18,9 +18,21 @@
 
 ### [🚀 View My Live Portfolio](https://hisammohmand.github.io/react-portfolio/)
 
-[![Mohammad Hisam Mohmand - Data Analyst Portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://hisammohmand.github.io/react-portfolio/)
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    🚀 LIVE PORTFOLIO                        │
+│                                                             │
+│  Mohammad Hisam Mohmand - Data Analyst Portfolio            │
+│  Professional • Responsive • Interactive                    │
+│                                                             │
+│  📊 8 Detailed Projects • 🎨 Glass Water Design            │
+│  📱 Mobile Optimized • 🚀 Performance Focused               │
+│                                                             │
+│  Click the link above to visit my live portfolio website    │
+└─────────────────────────────────────────────────────────────┘
+```
 
-*Click the image above to visit my live portfolio website*
+*Professional Data Analyst Portfolio featuring 8 detailed projects with glass water design*
 
 ---
 
