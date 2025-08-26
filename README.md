@@ -2,9 +2,9 @@
 
 Mohammad Hisam Mohmand's professional portfolio website built with React. A Principal Data Analyst specializing in Search Trust and Safety with 5 years of experience in operational processes and large-scale systems.
 
-### [Live Preview](https://ubaimutl.github.io/react-portfolio/)
+### [Live Preview](https://hisammohmand.github.io/react-portfolio/)
 
-[![React Portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+[![React Portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://hisammohmand.github.io/react-portfolio/)
 
 ### Features
 
@@ -21,7 +21,7 @@ Mohammad Hisam Mohmand's professional portfolio website built with React. A Prin
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/ubaimutl/react-portfolio.git
+git clone https://github.com/hisammohmand/react-portfolio.git
 cd react-portfolio
 ```
 
