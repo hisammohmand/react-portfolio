@@ -18,19 +18,21 @@
 
 ### [🚀 View My Live Portfolio](https://hisammohmand.github.io/react-portfolio/)
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    🚀 LIVE PORTFOLIO                        │
-│                                                             │
-│  Mohammad Hisam Mohmand - Data Analyst Portfolio            │
-│  Professional • Responsive • Interactive                    │
-│                                                             │
-│  📊 8 Detailed Projects • 🎨 Glass Water Design            │
-│  📱 Mobile Optimized • 🚀 Performance Focused               │
-│                                                             │
-│  Click the link above to visit my live portfolio website    │
-└─────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+![Portfolio Status](https://img.shields.io/badge/Status-Live%20%26%20Deployed-success?style=for-the-badge&logo=vercel&logoColor=white)
+![React](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-All%20Devices-green?style=for-the-badge&logo=responsive&logoColor=white)
+
+[![Live Portfolio](https://img.shields.io/badge/🚀_View_Live_Portfolio-Click_Here-00d4ff?style=for-the-badge&logo=github&logoColor=white)](https://hisammohmand.github.io/react-portfolio/)
+
+### 📊 **Mohammad Hisam Mohmand - Data Analyst Portfolio**
+
+![Projects](https://img.shields.io/badge/Projects-8%20Detailed%20Projects-orange?style=for-the-badge)
+![Design](https://img.shields.io/badge/Design-Glass%20Water%20Theme-9cf?style=for-the-badge)
+![Performance](https://img.shields.io/badge/Performance-Optimized-yellow?style=for-the-badge)
+
+</div>
 
 *Professional Data Analyst Portfolio featuring 8 detailed projects with glass water design*
 
