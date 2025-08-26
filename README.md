@@ -14,9 +14,13 @@
 - **Master's Degree**: Data Analytics and Information Management Systems - Arden University, Germany
 - **Bachelor's Degree**: Computer Science - Savitribai Phule Pune University, India
 
-### [Live Preview](https://hisammohmand.github.io/react-portfolio/)
+## 🌐 Live Portfolio
 
-[![React Portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://hisammohmand.github.io/react-portfolio/)
+### [🚀 View My Live Portfolio](https://hisammohmand.github.io/react-portfolio/)
+
+[![Mohammad Hisam Mohmand - Data Analyst Portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://hisammohmand.github.io/react-portfolio/)
+
+*Click the image above to visit my live portfolio website*
 
 ## 🛠️ Technical Skills
 
