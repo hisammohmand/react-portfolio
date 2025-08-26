@@ -22,6 +22,8 @@
 
 *Click the image above to visit my live portfolio website*
 
+---
+
 ## 🛠️ Technical Skills
 
 ### 💻 **Programming Languages & Tools**
