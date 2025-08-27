@@ -12,7 +12,7 @@ import HealthcareAnalytics from "../pages/healthcare-analytics";
 import RealTimeMonitoring from "../pages/real-time-monitoring";
 import EcommerceAnalytics from "../pages/e-commerce-analytics";
 import SocialMediaSentiment from "../pages/social-media-sentiment";
-import EnergyConsumptionPrediction from "../pages/energy-consumption-prediction";
+import EnergyConsumption from "../pages/energy-consumption-prediction";
 import ClimateChangeAnalysis from "../pages/climate-change-analysis";
 
 const AppRoutes = () => {
@@ -30,7 +30,7 @@ const AppRoutes = () => {
       <Route path="/real-time-monitoring" element={<RealTimeMonitoring />} />
       <Route path="/e-commerce-analytics" element={<EcommerceAnalytics />} />
       <Route path="/social-media-sentiment" element={<SocialMediaSentiment />} />
-      <Route path="/energy-consumption-prediction" element={<EnergyConsumptionPrediction />} />
+      <Route path="/energy-consumption-prediction" element={<EnergyConsumption />} />
       <Route path="/climate-change-analysis" element={<ClimateChangeAnalysis />} />
     </Routes>
   );

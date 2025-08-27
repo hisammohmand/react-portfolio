@@ -150,7 +150,7 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "m77.hisam@gmail.com",
-    YOUR_FONE: "+1 2065308402",
+    YOUR_FONE: "+49 176 12345678",
     description: "Ready to collaborate on data-driven projects? Let's discuss how we can work together to transform your data into actionable insights and create impactful solutions.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/

@@ -1,116 +1,85 @@
-import React from "react";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { meta } from "../../content_option";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './style.css';
 
 const ClimateChangeAnalysis = () => {
-  return (
-    <HelmetProvider>
-      <section id="climate-change-analysis" className="project-page">
-        <Container className="About-header">
-          <Helmet>
-            <meta charSet="utf-8" />
-            <title> Climate Change Data Analysis | {meta.title} </title>
-            <meta name="description" content="Environmental data analysis for climate change insights" />
-          </Helmet>
-          <Row className="mb-5 mt-3 pt-md-3">
-            <Col lg="8">
-              <h1 className="display-4 mb-4">Climate Change Data Analysis</h1>
-              <hr className="t_border my-4 ml-0 text-left" />
-              <p className="lead">
-                Comprehensive environmental data analysis platform for climate change research and sustainability insights.
-              </p>
-            </Col>
-          </Row>
-
-          <Row className="mb-5">
-            <Col lg="12">
-              <div className="project-overview">
-                <h2>Project Overview</h2>
-                <p>
-                  Developed a comprehensive climate change analysis platform that processes environmental data to provide 
-                  insights into climate patterns, temperature trends, and sustainability metrics for informed decision-making.
-                </p>
-              </div>
-            </Col>
-          </Row>
-
-          <Row className="mb-5">
-            <Col lg="6">
-              <div className="feature-card">
-                <h3>Key Features</h3>
-                <ul>
-                  <li>Temperature Trend Analysis</li>
-                  <li>Carbon Emission Tracking</li>
-                  <li>Weather Pattern Prediction</li>
-                  <li>Environmental Impact Assessment</li>
-                  <li>Sustainability Metrics</li>
-                  <li>Climate Risk Modeling</li>
-                </ul>
-              </div>
-            </Col>
-            <Col lg="6">
-              <div className="tech-card">
-                <h3>Technologies Used</h3>
-                <div className="tech-tags">
-                  <span className="tech-tag">Python</span>
-                  <span className="tech-tag">Pandas</span>
-                  <span className="tech-tag">Matplotlib</span>
-                  <span className="tech-tag">Seaborn</span>
-                  <span className="tech-tag">Scikit-learn</span>
-                  <span className="tech-tag">GeoPandas</span>
+    return (
+        <div className="project-page">
+            <div className="project-header">
+                <div className="container">
+                    <Link to="/" className="back-button">
+                        ← Back to Portfolio
+                    </Link>
+                    <h1>Climate Change Data Analysis</h1>
+                    <p className="project-subtitle">
+                        Environmental data analysis for climate change insights and sustainability
+                    </p>
+                    <div className="project-meta">
+                        <span className="meta-item">
+                            <strong>Duration:</strong> 5 months
+                        </span>
+                        <span className="meta-item">
+                            <strong>Tools:</strong> Python, Pandas, Matplotlib, Scikit-learn, GeoPandas, Jupyter
+                        </span>
+                        <span className="meta-item">
+                            <strong>Impact:</strong> 94.2% trend accuracy
+                        </span>
+                    </div>
                 </div>
-              </div>
-            </Col>
-          </Row>
+            </div>
 
-          <Row className="mb-5">
-            <Col lg="12">
-              <div className="results-section">
-                <h2>Results & Impact</h2>
-                <Row>
-                  <Col lg="3" md="6">
-                    <div className="metric-card">
-                      <h3>50+</h3>
-                      <p>Years Analyzed</p>
+            <div className="hero-section">
+                <div className="container">
+                    <div className="hero-image">
+                        <img
+                            src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&h=600&fit=crop"
+                            alt="Climate Change Data Analysis"
+                            className="main-image"
+                        />
                     </div>
-                  </Col>
-                  <Col lg="3" md="6">
-                    <div className="metric-card">
-                      <h3>1M+</h3>
-                      <p>Data Points</p>
-                    </div>
-                  </Col>
-                  <Col lg="3" md="6">
-                    <div className="metric-card">
-                      <h3>95%</h3>
-                      <p>Model Accuracy</p>
-                    </div>
-                  </Col>
-                  <Col lg="3" md="6">
-                    <div className="metric-card">
-                      <h3>Global</h3>
-                      <p>Coverage</p>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-            </Col>
-          </Row>
 
-          <Row className="mb-5">
-            <Col lg="12" className="text-center">
-              <Link to="/portfolio" className="btn btn-primary btn-lg">
-                ← Back to Portfolio
-              </Link>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-    </HelmetProvider>
-  );
+                    <div className="project-results">
+                        <h3>📊 Project Results & Achievements</h3>
+                        <div className="results-grid">
+                            <div className="result-card">
+                                <h4>Data Coverage</h4>
+                                <div className="result-value">95%</div>
+                                <p>Global coverage of climate data</p>
+                            </div>
+                            <div className="result-card">
+                                <h4>Trend Accuracy</h4>
+                                <div className="result-value">94.2%</div>
+                                <p>Climate trend prediction accuracy</p>
+                            </div>
+                            <div className="result-card">
+                                <h4>Prediction Horizon</h4>
+                                <div className="result-value">10 years</div>
+                                <p>Long-term forecasting capability</p>
+                            </div>
+                            <div className="result-card">
+                                <h4>Research Papers</h4>
+                                <div className="result-value">3</div>
+                                <p>Published research papers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="cta-section">
+                        <h3>🚀 Ready to Analyze Environmental Data?</h3>
+                        <p>This project demonstrates advanced environmental data analysis capabilities. Let's discuss how we can implement similar solutions for your environmental research needs.</p>
+                        <div className="cta-buttons">
+                            <Link to="/contact" className="cta-button primary">
+                                Get in Touch
+                            </Link>
+                            <Link to="/portfolio" className="cta-button secondary">
+                                View Other Projects
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
 };
 
 export default ClimateChangeAnalysis;
