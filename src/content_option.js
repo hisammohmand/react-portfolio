@@ -87,70 +87,70 @@ const dataportfolio = [{
     alt: "Trust & Safety Analytics Dashboard",
     title: "Trust & Safety Analytics Dashboard",
     description: "Comprehensive dashboard for monitoring and analyzing trust and safety metrics across platforms.",
-    link: "/trust-safety-analytics",
-    hasDetailedPage: true
+    link: "https://github.com/hisammohmand/trust-safety-analytics",
+    hasDetailedPage: false
 },
 {
     img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
-    alt: "Predictive Fraud Detection Model",
-    title: "Predictive Fraud Detection Model",
+    alt: "Financial Fraud Detection Model",
+    title: "Financial Fraud Detection Model",
     description: "Machine learning model for detecting fraudulent activities in real-time.",
-    link: "/fraud-detection",
-    hasDetailedPage: true
+    link: "https://github.com/hisammohmand/financial-fraud-detection",
+    hasDetailedPage: false
 },
 {
     img: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=400&h=300&fit=crop",
-    alt: "Data Pipeline Automation",
-    title: "Data Pipeline Automation",
-    description: "Automated data processing pipeline for efficient data collection and analysis.",
-    link: "/data-pipeline",
-    hasDetailedPage: true
+    alt: "Healthcare Analytics Dashboard",
+    title: "Healthcare Analytics Dashboard",
+    description: "Patient data analysis and healthcare insights platform.",
+    link: "https://github.com/hisammohmand/healthcare-analytics",
+    hasDetailedPage: false
 },
 {
     img: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=300&fit=crop",
-    alt: "Cybersecurity Threat Analysis",
-    title: "Cybersecurity Threat Analysis",
-    description: "Advanced threat detection and analysis system for cybersecurity monitoring.",
-    link: "/cybersecurity-threats",
-    hasDetailedPage: true
-},
-{
-    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
-    alt: "Customer Behavior Analytics",
-    title: "Customer Behavior Analytics",
-    description: "Deep dive into customer behavior patterns and predictive analytics.",
-    link: "/customer-behavior",
-    hasDetailedPage: true
-},
-{
-    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
     alt: "Real-time Data Monitoring",
     title: "Real-time Data Monitoring",
     description: "Real-time monitoring system for data quality and system performance.",
-    link: "/real-time-monitoring",
-    hasDetailedPage: true
+    link: "https://github.com/hisammohmand/real-time-monitoring",
+    hasDetailedPage: false
+},
+{
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    alt: "E-commerce Analytics Platform",
+    title: "E-commerce Analytics Platform",
+    description: "Sales and customer behavior analysis for e-commerce platforms.",
+    link: "https://github.com/hisammohmand/e-commerce-analytics",
+    hasDetailedPage: false
+},
+{
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    alt: "Social Media Sentiment Analysis",
+    title: "Social Media Sentiment Analysis",
+    description: "NLP-based sentiment analysis for social media content.",
+    link: "https://github.com/hisammohmand/social-media-sentiment",
+    hasDetailedPage: false
 },
 {
     img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&h=300&fit=crop",
-    alt: "Car Sales Descriptive Analysis",
-    title: "Car Sales Descriptive Analysis",
-    description: "Comprehensive analysis of car sales data with statistical insights and market trends.",
-    link: "/car-sales-analysis",
-    hasDetailedPage: true
+    alt: "Energy Consumption Prediction",
+    title: "Energy Consumption Prediction",
+    description: "Time series forecasting for energy consumption patterns.",
+    link: "https://github.com/hisammohmand/energy-consumption-prediction",
+    hasDetailedPage: false
 },
 {
     img: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
-    alt: "Amazon Global Sales & Review Analysis",
-    title: "Amazon Global Sales & Review Analysis",
-    description: "E-commerce intelligence analysis using real Amazon product data for business insights.",
-    link: "/amazon-sales-analysis",
-    hasDetailedPage: true
+    alt: "Climate Change Data Analysis",
+    title: "Climate Change Data Analysis",
+    description: "Environmental data analysis for climate change insights.",
+    link: "https://github.com/hisammohmand/climate-change-analysis",
+    hasDetailedPage: false
 }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "m77.hisam@gmail.com",
+    YOUR_FONE: "+49 176 12345678",
     description: "Ready to collaborate on data-driven projects? Let's discuss how we can work together to transform your data into actionable insights and create impactful solutions.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
