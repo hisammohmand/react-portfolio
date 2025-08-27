@@ -18,26 +18,26 @@
     .container {
         padding: 0 1rem;
     }
-    
+
     .project-header h1 {
         font-size: 2rem;
         line-height: 1.2;
     }
-    
+
     .project-subtitle {
         font-size: 1rem;
     }
-    
+
     .project-meta {
         flex-direction: column;
         gap: 0.5rem;
     }
-    
+
     .meta-item {
         font-size: 0.8rem;
         padding: 0.3rem 0.8rem;
     }
-    
+
     .instructions-grid,
     .results-grid,
     .features-grid,
@@ -45,30 +45,30 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    
+
     .instruction-step,
     .result-card,
     .feature-item,
     .impact-item {
         padding: 1rem;
     }
-    
+
     .cta-buttons {
         flex-direction: column;
         align-items: center;
         gap: 1rem;
     }
-    
+
     .cta-button {
         width: 100%;
         max-width: 300px;
         text-align: center;
     }
-    
+
     .hero-image {
         margin-bottom: 2rem;
     }
-    
+
     .main-image {
         height: 250px;
     }
@@ -78,15 +78,15 @@
     .project-header {
         padding: 1rem 0;
     }
-    
+
     .project-header h1 {
         font-size: 1.5rem;
     }
-    
+
     .project-subtitle {
         font-size: 0.9rem;
     }
-    
+
     .project-instructions h3,
     .project-results h3,
     .key-features h3,
@@ -95,11 +95,11 @@
     .cta-section h3 {
         font-size: 1.4rem;
     }
-    
+
     .result-value {
         font-size: 2rem;
     }
-    
+
     .step-number {
         width: 35px;
         height: 35px;

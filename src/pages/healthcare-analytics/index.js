@@ -45,8 +45,8 @@ const HealthcareAnalytics = () => {
                         <h3>🎯 Project Overview</h3>
                         <div className="overview-content">
                             <p>
-                                The Healthcare Analytics Dashboard is a comprehensive platform designed to transform patient data into actionable insights. 
-                                This project leverages advanced machine learning algorithms to predict patient risks, optimize treatment plans, and improve 
+                                The Healthcare Analytics Dashboard is a comprehensive platform designed to transform patient data into actionable insights.
+                                This project leverages advanced machine learning algorithms to predict patient risks, optimize treatment plans, and improve
                                 healthcare outcomes while ensuring HIPAA compliance and data security.
                             </p>
                             <div className="overview-highlights">
