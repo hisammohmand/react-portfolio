@@ -221,29 +221,29 @@ export const Portfolio = () => {
   return (
     <HelmetProvider>
       <section id="portfolio" className="portfolio-page">
-      <Container className="About-header">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title> Portfolio | {meta.title} </title>{" "}
-          <meta name="description" content={meta.description} />
-        </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="8">
-            <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
-            <hr className="t_border my-4 ml-0 text-left" />
+        <Container className="About-header">
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title> Portfolio | {meta.title} </title>{" "}
+            <meta name="description" content={meta.description} />
+          </Helmet>
+          <Row className="mb-5 mt-3 pt-md-3">
+            <Col lg="8">
+              <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
+              <hr className="t_border my-4 ml-0 text-left" />
               <p className="lead">
                 Explore my comprehensive data analytics and machine learning projects.
                 Each project demonstrates expertise in Python, SQL, data visualization,
                 and advanced analytics techniques.
               </p>
-          </Col>
-        </Row>
+            </Col>
+          </Row>
 
           {/* Project Grid */}
-        <div className="mb-5 po_items_ho">
+          <div className="mb-5 po_items_ho">
             {enhancedProjects.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
+              return (
+                <div key={i} className="po_item">
                   <img src={data.img} alt={data.alt} />
                   <div className="content-below">
                     <h3 className="project-title">{data.title}</h3>
@@ -359,10 +359,10 @@ export const Portfolio = () => {
                     <li>Project Management</li>
                   </ul>
                 </div>
-        </div>
+              </div>
             </Col>
           </Row>
-      </Container>
+        </Container>
 
 
       </section>
