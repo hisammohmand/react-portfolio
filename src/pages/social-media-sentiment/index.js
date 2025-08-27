@@ -38,6 +38,36 @@ const SocialMediaSentiment = () => {
                         />
                     </div>
 
+                    {/* Project Overview */}
+                    <div className="project-overview">
+                        <h3>🎯 Project Overview</h3>
+                        <div className="overview-content">
+                            <p>
+                                The Social Media Sentiment Analysis platform is an advanced NLP-based solution designed to monitor and analyze social media content 
+                                in real-time. This project leverages cutting-edge natural language processing techniques to provide accurate sentiment classification, 
+                                brand monitoring, and trend analysis for comprehensive social media intelligence.
+                            </p>
+                            <div className="overview-highlights">
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">🧠</span>
+                                    <span>NLP Processing</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">📱</span>
+                                    <span>Real-time Monitoring</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">📊</span>
+                                    <span>Sentiment Analysis</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">🚨</span>
+                                    <span>Trend Alerts</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="project-results">
                         <h3>📊 Project Results & Achievements</h3>
                         <div className="results-grid">

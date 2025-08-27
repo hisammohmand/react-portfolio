@@ -40,9 +40,39 @@ const HealthcareAnalytics = () => {
                         />
                     </div>
 
+                    {/* Project Overview */}
+                    <div className="project-overview">
+                        <h3>🎯 Project Overview</h3>
+                        <div className="overview-content">
+                            <p>
+                                The Healthcare Analytics Dashboard is a comprehensive platform designed to transform patient data into actionable insights. 
+                                This project leverages advanced machine learning algorithms to predict patient risks, optimize treatment plans, and improve 
+                                healthcare outcomes while ensuring HIPAA compliance and data security.
+                            </p>
+                            <div className="overview-highlights">
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">🏥</span>
+                                    <span>Patient Risk Prediction</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">📊</span>
+                                    <span>Treatment Optimization</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">🔒</span>
+                                    <span>HIPAA Compliant</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">⚡</span>
+                                    <span>Real-time Monitoring</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     {/* Project Instructions */}
                     <div className="project-instructions">
-                        <h3>📋 Project Instructions & Implementation Steps</h3>
+                        <h3>📋 Implementation Process</h3>
                         <div className="instructions-grid">
                             <div className="instruction-step">
                                 <div className="step-number">1</div>

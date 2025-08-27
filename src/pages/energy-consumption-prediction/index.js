@@ -38,6 +38,36 @@ const EnergyConsumption = () => {
                         />
                     </div>
 
+                    {/* Project Overview */}
+                    <div className="project-overview">
+                        <h3>🎯 Project Overview</h3>
+                        <div className="overview-content">
+                            <p>
+                                The Energy Consumption Prediction system is an advanced time series forecasting solution designed to optimize energy usage and reduce costs. 
+                                This project leverages sophisticated machine learning algorithms to predict energy consumption patterns, enabling proactive energy management 
+                                and significant cost savings through data-driven optimization strategies.
+                            </p>
+                            <div className="overview-highlights">
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">⚡</span>
+                                    <span>Energy Forecasting</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">📈</span>
+                                    <span>Time Series Analysis</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">💰</span>
+                                    <span>Cost Optimization</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">🎯</span>
+                                    <span>Predictive Modeling</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="project-results">
                         <h3>📊 Project Results & Achievements</h3>
                         <div className="results-grid">

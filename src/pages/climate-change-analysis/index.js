@@ -38,6 +38,36 @@ const ClimateChangeAnalysis = () => {
                         />
                     </div>
 
+                    {/* Project Overview */}
+                    <div className="project-overview">
+                        <h3>🎯 Project Overview</h3>
+                        <div className="overview-content">
+                            <p>
+                                The Climate Change Data Analysis project is a comprehensive environmental research platform designed to analyze climate patterns and predict 
+                                environmental trends. This project leverages advanced statistical analysis and machine learning to provide insights into climate change, 
+                                enabling informed decision-making for sustainability and environmental protection.
+                            </p>
+                            <div className="overview-highlights">
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">🌍</span>
+                                    <span>Environmental Analysis</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">📊</span>
+                                    <span>Statistical Modeling</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">🔬</span>
+                                    <span>Research Focus</span>
+                                </div>
+                                <div className="highlight-item">
+                                    <span className="highlight-icon">📈</span>
+                                    <span>Trend Prediction</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="project-results">
                         <h3>📊 Project Results & Achievements</h3>
                         <div className="results-grid">
