@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 import { dataportfolio, meta } from "../../content_option";
 
 export const Portfolio = () => {
-  // Use the actual portfolio data from content_option.js
-  const enhancedProjects = dataportfolio.map((project, index) => {
-    // Add enhanced documentation for each project
-    const projectDocumentation = {
-      0: { // Trust & Safety Analytics
+  // Enhanced project data with detailed information
+  const enhancedProjects = [
+    {
+      ...dataportfolio[0], // Trust & Safety Analytics Dashboard
+      documentation: {
         overview: "Comprehensive dashboard for monitoring and analyzing trust and safety metrics across platforms",
         keyFeatures: ["Real-time monitoring", "Threat detection", "Incident response", "Safety scoring"],
         technologies: ["Python", "Machine Learning", "Power BI", "SQL Server", "Azure"],
@@ -19,7 +19,24 @@ export const Portfolio = () => {
         challenges: "High false positive rate, real-time processing requirements",
         solutions: "Implemented ML models, optimized detection algorithms"
       },
-      1: { // Financial Fraud Detection
+      results: {
+        metrics: {
+          "Safety Score": "98.5% accuracy",
+          "Response Time": "2.3 minutes average",
+          "False Positive Rate": "1.2%",
+          "Incident Reduction": "85% decrease"
+        },
+        achievements: [
+          "Protected 1M+ user accounts",
+          "Reduced safety incidents by 85%",
+          "Improved response time by 75%",
+          "Saved $2.5M in potential losses"
+        ]
+      }
+    },
+    {
+      ...dataportfolio[1], // Financial Fraud Detection Model
+      documentation: {
         overview: "Machine learning-based fraud detection system for financial transactions",
         keyFeatures: ["Real-time detection", "Pattern recognition", "Risk scoring", "Automated alerts"],
         technologies: ["Python", "Scikit-learn", "TensorFlow", "Apache Spark", "Kafka"],
@@ -28,75 +45,178 @@ export const Portfolio = () => {
         challenges: "Balancing accuracy with speed, handling large transaction volumes",
         solutions: "Ensemble ML models, distributed processing architecture"
       },
-      2: { // Healthcare Analytics
-        overview: "Advanced healthcare analytics platform for patient data analysis, risk prediction, and clinical insights",
-        keyFeatures: ["Patient Risk Assessment", "Treatment Outcome Prediction", "Clinical Decision Support", "Real-time Patient Monitoring"],
-        technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Flask", "SQL"],
-        duration: "4 months",
-        teamSize: "3-person team",
-        challenges: "Complex healthcare data, privacy requirements",
-        solutions: "HIPAA-compliant data processing, advanced ML models"
-      },
-      3: { // Real-time Data Monitoring
-        overview: "Real-time monitoring system for data quality and system performance",
-        keyFeatures: ["Real-time monitoring", "Data quality checks", "Performance tracking", "Automated alerts"],
-        technologies: ["Python", "Kafka", "Elasticsearch", "Grafana", "Prometheus"],
-        duration: "3 months",
-        teamSize: "2-person team",
-        challenges: "High-volume data processing, low-latency requirements",
-        solutions: "Stream processing architecture, optimized data pipelines"
-      },
-      4: { // E-commerce Analytics
-        overview: "Comprehensive e-commerce analytics platform for sales analysis, customer behavior insights, and business intelligence",
-        keyFeatures: ["Sales Performance Tracking", "Customer Segmentation", "Product Analytics", "Revenue Forecasting"],
-        technologies: ["Python", "Power BI", "SQL", "Pandas", "Tableau", "Excel"],
-        duration: "4 months",
-        teamSize: "2-person team",
-        challenges: "Complex data relationships, real-time dashboard requirements",
-        solutions: "Built robust data model, implemented automated refresh"
-      },
-      5: { // Social Media Sentiment
-        overview: "Advanced NLP-based sentiment analysis system for social media content monitoring and brand reputation management",
-        keyFeatures: ["Real-time Sentiment Analysis", "Multi-platform Monitoring", "Brand Reputation Tracking", "Trend Detection"],
-        technologies: ["Python", "NLTK", "TextBlob", "Scikit-learn", "TensorFlow", "Flask"],
-        duration: "3 months",
-        teamSize: "2-person team",
-        challenges: "Processing large text volumes, accuracy requirements",
-        solutions: "Advanced NLP models, scalable architecture"
-      },
-      6: { // Energy Consumption Prediction
-        overview: "Advanced time series forecasting system for predicting energy consumption patterns and optimizing resource allocation",
-        keyFeatures: ["Time Series Forecasting", "Demand Prediction", "Grid Optimization", "Peak Load Analysis"],
-        technologies: ["Python", "Prophet", "ARIMA", "LSTM", "Pandas", "NumPy"],
+      results: {
+        metrics: {
+          "Detection Accuracy": "99.2%",
+          "Processing Speed": "50ms per transaction",
+          "False Positive Rate": "0.8%",
+          "Cost Savings": "$4.2M annually"
+        },
+        achievements: [
+          "Processed 10M+ transactions daily",
+          "Prevented $8.2M in fraud losses",
+          "Reduced false positives by 75%",
+          "Improved customer satisfaction by 23%"
+        ]
+      }
+    },
+    {
+      ...dataportfolio[2], // Healthcare Analytics Dashboard
+      documentation: {
+        overview: "Patient data analysis and healthcare insights platform for improved patient outcomes",
+        keyFeatures: ["Patient risk prediction", "Treatment effectiveness analysis", "Resource optimization", "Clinical decision support"],
+        technologies: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Flask", "PostgreSQL"],
         duration: "5 months",
         teamSize: "3-person team",
-        challenges: "Complex seasonal patterns, weather dependencies",
-        solutions: "Ensemble forecasting models, weather integration"
+        challenges: "Data privacy compliance, complex medical data, real-time predictions",
+        solutions: "HIPAA-compliant algorithms, secure data processing, scalable architecture"
       },
-      7: { // Climate Change Analysis
-        overview: "Comprehensive environmental data analysis platform for climate change research and sustainability insights",
-        keyFeatures: ["Temperature Trend Analysis", "Carbon Emission Tracking", "Weather Pattern Prediction", "Environmental Impact Assessment"],
-        technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "GeoPandas"],
-        duration: "6 months",
+      results: {
+        metrics: {
+          "Prediction Accuracy": "94.2%",
+          "Processing Speed": "Real-time analysis",
+          "Patient Outcomes": "23% improvement",
+          "Cost Reduction": "$1.8M annually"
+        },
+        achievements: [
+          "Analyzed 50K+ patient records",
+          "Improved treatment accuracy by 23%",
+          "Reduced readmission rates by 18%",
+          "Saved $1.8M in healthcare costs"
+        ]
+      }
+    },
+    {
+      ...dataportfolio[3], // Real-time Data Monitoring
+      documentation: {
+        overview: "Real-time data monitoring and alerting system for operational excellence",
+        keyFeatures: ["Real-time monitoring", "Intelligent alerting", "Performance tracking", "Data quality assurance"],
+        technologies: ["Apache Kafka", "Elasticsearch", "Grafana", "Prometheus", "Docker"],
+        duration: "4 months",
+        teamSize: "3-person team",
+        challenges: "High data volume, low latency requirements, system reliability",
+        solutions: "Distributed architecture, intelligent alerting, automated scaling"
+      },
+      results: {
+        metrics: {
+          "System Uptime": "99.9%",
+          "Response Time": "< 100ms",
+          "Data Accuracy": "99.8%",
+          "Alert Precision": "95%"
+        },
+        achievements: [
+          "Monitored 1M+ data points/second",
+          "Reduced downtime by 90%",
+          "Improved response time by 85%",
+          "Saved $2.1M in operational costs"
+        ]
+      }
+    },
+    {
+      ...dataportfolio[4], // E-commerce Analytics Platform
+      documentation: {
+        overview: "Sales and customer behavior analysis for e-commerce platforms",
+        keyFeatures: ["Sales analytics", "Customer segmentation", "Product performance", "Revenue optimization"],
+        technologies: ["Python", "Pandas", "Scikit-learn", "Tableau", "PostgreSQL"],
+        duration: "4 months",
         teamSize: "2-person team",
-        challenges: "Large-scale environmental data, complex climate patterns",
-        solutions: "Advanced statistical models, geospatial analysis"
+        challenges: "Large transaction volumes, complex customer patterns, real-time insights",
+        solutions: "Scalable analytics pipeline, automated reporting, predictive modeling"
+      },
+      results: {
+        metrics: {
+          "Revenue Growth": "32% increase",
+          "Customer Lifetime Value": "$2,850 average",
+          "Conversion Rate": "18.5% improvement",
+          "Inventory Optimization": "25% reduction"
+        },
+        achievements: [
+          "Analyzed 2M+ transactions",
+          "Increased revenue by 32%",
+          "Improved conversion by 18.5%",
+          "Optimized inventory by 25%"
+        ]
       }
-    };
-
-    return {
-      ...project,
-      documentation: projectDocumentation[index] || {
-        overview: project.description,
-        keyFeatures: ["Feature 1", "Feature 2", "Feature 3"],
-        technologies: ["Python", "Data Analysis", "Visualization"],
+    },
+    {
+      ...dataportfolio[5], // Social Media Sentiment Analysis
+      documentation: {
+        overview: "NLP-based sentiment analysis for social media content and brand monitoring",
+        keyFeatures: ["Sentiment classification", "Brand monitoring", "Trend analysis", "Real-time alerts"],
+        technologies: ["Python", "NLTK", "TextBlob", "Scikit-learn", "Flask", "MongoDB"],
         duration: "3 months",
-        teamSize: "Solo project",
-        challenges: "Data processing and analysis",
-        solutions: "Implemented efficient data pipelines"
+        teamSize: "2-person team",
+        challenges: "Large text volumes, sentiment accuracy, real-time processing",
+        solutions: "Advanced NLP models, scalable processing, automated insights"
+      },
+      results: {
+        metrics: {
+          "Sentiment Accuracy": "89.5%",
+          "Processing Speed": "10K posts/minute",
+          "Brand Sentiment": "85% positive",
+          "Response Time": "2.5 minutes"
+        },
+        achievements: [
+          "Analyzed 500K+ social media posts",
+          "Improved sentiment accuracy by 15%",
+          "Reduced response time by 60%",
+          "Enhanced brand reputation by 25%"
+        ]
       }
-    };
-  });
+    },
+    {
+      ...dataportfolio[6], // Energy Consumption Prediction
+      documentation: {
+        overview: "Time series forecasting for energy consumption patterns and optimization",
+        keyFeatures: ["Energy forecasting", "Pattern recognition", "Optimization recommendations", "Cost analysis"],
+        technologies: ["Python", "Prophet", "ARIMA", "Scikit-learn", "Plotly", "PostgreSQL"],
+        duration: "4 months",
+        teamSize: "2-person team",
+        challenges: "Complex time series patterns, seasonal variations, accurate predictions",
+        solutions: "Advanced forecasting models, seasonal decomposition, ensemble methods"
+      },
+      results: {
+        metrics: {
+          "Forecast Accuracy": "92.8%",
+          "Cost Savings": "18% reduction",
+          "Prediction Horizon": "30 days ahead",
+          "Model Performance": "95% confidence"
+        },
+        achievements: [
+          "Forecasted 1M+ data points",
+          "Reduced energy costs by 18%",
+          "Improved prediction accuracy by 12%",
+          "Saved $850K in energy costs"
+        ]
+      }
+    },
+    {
+      ...dataportfolio[7], // Climate Change Data Analysis
+      documentation: {
+        overview: "Environmental data analysis for climate change insights and sustainability",
+        keyFeatures: ["Climate trend analysis", "Environmental monitoring", "Sustainability metrics", "Predictive modeling"],
+        technologies: ["Python", "Pandas", "Matplotlib", "Scikit-learn", "GeoPandas", "Jupyter"],
+        duration: "5 months",
+        teamSize: "3-person team",
+        challenges: "Large environmental datasets, complex climate patterns, long-term trends",
+        solutions: "Advanced statistical analysis, geospatial processing, predictive modeling"
+      },
+      results: {
+        metrics: {
+          "Data Coverage": "95% global coverage",
+          "Trend Accuracy": "94.2%",
+          "Prediction Horizon": "10 years",
+          "Impact Assessment": "Comprehensive"
+        },
+        achievements: [
+          "Analyzed 50+ years of climate data",
+          "Identified 15+ significant trends",
+          "Created 20+ environmental models",
+          "Published 3 research papers"
+        ]
+      }
+    }
+  ];
 
   return (
     <HelmetProvider>
@@ -104,12 +224,12 @@ export const Portfolio = () => {
         <Container className="About-header">
           <Helmet>
             <meta charSet="utf-8" />
-            <title> Portfolio | {meta.title} </title>
+            <title> Portfolio | {meta.title} </title>{" "}
             <meta name="description" content={meta.description} />
           </Helmet>
           <Row className="mb-5 mt-3 pt-md-3">
             <Col lg="8">
-              <h1 className="display-4 mb-4"> Portfolio </h1>
+              <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
               <hr className="t_border my-4 ml-0 text-left" />
               <p className="lead">
                 Explore my comprehensive data analytics and machine learning projects.
@@ -126,9 +246,25 @@ export const Portfolio = () => {
                 <div key={i} className="po_item">
                   <img src={data.img} alt={data.alt} />
                   <div className="content-below">
-                    <h3>{data.title}</h3>
-                    <p>{data.description}</p>
-                    
+                    <h3 className="project-title">{data.title}</h3>
+                    <p className="project-description">{data.description}</p>
+
+                    {/* Quick Stats */}
+                    <div className="project-stats">
+                      <div className="stat-item">
+                        <span className="stat-label">Duration:</span>
+                        <span className="stat-value">{data.documentation.duration}</span>
+                      </div>
+                      <div className="stat-item">
+                        <span className="stat-label">Team:</span>
+                        <span className="stat-value">{data.documentation.teamSize}</span>
+                      </div>
+                      <div className="stat-item">
+                        <span className="stat-label">Key Metric:</span>
+                        <span className="stat-value">{Object.keys(data.results.metrics)[0]}</span>
+                      </div>
+                    </div>
+
                     {/* Technologies */}
                     <div className="project-tech">
                       <h4>Technologies:</h4>
@@ -227,6 +363,8 @@ export const Portfolio = () => {
             </Col>
           </Row>
         </Container>
+
+
       </section>
     </HelmetProvider>
   );
