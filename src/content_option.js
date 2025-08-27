@@ -87,64 +87,64 @@ const dataportfolio = [{
     alt: "Trust & Safety Analytics Dashboard",
     title: "Trust & Safety Analytics Dashboard",
     description: "Comprehensive dashboard for monitoring and analyzing trust and safety metrics across platforms.",
-    link: "https://github.com/hisammohmand/trust-safety-analytics",
-    hasDetailedPage: false
+    link: "/trust-safety-analytics",
+    hasDetailedPage: true
 },
 {
     img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
     alt: "Financial Fraud Detection Model",
     title: "Financial Fraud Detection Model",
     description: "Machine learning model for detecting fraudulent activities in real-time.",
-    link: "https://github.com/hisammohmand/financial-fraud-detection",
-    hasDetailedPage: false
+    link: "/fraud-detection",
+    hasDetailedPage: true
 },
 {
     img: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=400&h=300&fit=crop",
     alt: "Healthcare Analytics Dashboard",
     title: "Healthcare Analytics Dashboard",
     description: "Patient data analysis and healthcare insights platform.",
-    link: "https://github.com/hisammohmand/healthcare-analytics",
-    hasDetailedPage: false
+    link: "/healthcare-analytics",
+    hasDetailedPage: true
 },
 {
     img: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=300&fit=crop",
     alt: "Real-time Data Monitoring",
     title: "Real-time Data Monitoring",
     description: "Real-time monitoring system for data quality and system performance.",
-    link: "https://github.com/hisammohmand/real-time-monitoring",
-    hasDetailedPage: false
+    link: "/real-time-monitoring",
+    hasDetailedPage: true
 },
 {
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
     alt: "E-commerce Analytics Platform",
     title: "E-commerce Analytics Platform",
     description: "Sales and customer behavior analysis for e-commerce platforms.",
-    link: "https://github.com/hisammohmand/e-commerce-analytics",
-    hasDetailedPage: false
+    link: "/e-commerce-analytics",
+    hasDetailedPage: true
 },
 {
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
     alt: "Social Media Sentiment Analysis",
     title: "Social Media Sentiment Analysis",
     description: "NLP-based sentiment analysis for social media content.",
-    link: "https://github.com/hisammohmand/social-media-sentiment",
-    hasDetailedPage: false
+    link: "/social-media-sentiment",
+    hasDetailedPage: true
 },
 {
     img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&h=300&fit=crop",
     alt: "Energy Consumption Prediction",
     title: "Energy Consumption Prediction",
     description: "Time series forecasting for energy consumption patterns.",
-    link: "https://github.com/hisammohmand/energy-consumption-prediction",
-    hasDetailedPage: false
+    link: "/energy-consumption-prediction",
+    hasDetailedPage: true
 },
 {
     img: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
     alt: "Climate Change Data Analysis",
     title: "Climate Change Data Analysis",
     description: "Environmental data analysis for climate change insights.",
-    link: "https://github.com/hisammohmand/climate-change-analysis",
-    hasDetailedPage: false
+    link: "/climate-change-analysis",
+    hasDetailedPage: true
 }
 ];
 
