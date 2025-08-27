@@ -350,6 +350,22 @@
     font-weight: 500;
 }
 
+.implementation-details h4 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.implementation-details ul {
+    color: #e0e7ff;
+    padding-left: 1.5rem;
+}
+
+.implementation-details li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
+
 .cta-buttons {
     display: flex;
     gap: 1rem;
