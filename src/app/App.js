@@ -10,8 +10,6 @@ import { Home } from "../pages/home";
 import { About } from "../pages/about";
 import { Portfolio } from "../pages/portfolio";
 import { ContactUs } from "../pages/contact";
-import CarSalesAnalysis from "../pages/car-sales-analysis";
-import AmazonSalesAnalysis from "../pages/amazon-sales-analysis";
 import TrustSafetyAnalytics from "../pages/trust-safety-analytics";
 import FraudDetection from "../pages/fraud-detection";
 import HealthcareAnalytics from "../pages/healthcare-analytics";
@@ -20,15 +18,12 @@ import EcommerceAnalytics from "../pages/e-commerce-analytics";
 import SocialMediaSentiment from "../pages/social-media-sentiment";
 import EnergyConsumption from "../pages/energy-consumption-prediction";
 import ClimateChangeAnalysis from "../pages/climate-change-analysis";
-import DataPipeline from "../pages/data-pipeline";
-import CybersecurityThreats from "../pages/cybersecurity-threats";
-import CustomerBehavior from "../pages/customer-behavior";
 import "./App.css";
 
 export default function App() {
   return (
     <ErrorBoundary>
-    <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         {/* Ocean Beach Background */}
         <div className="movie-background">
           {/* Ocean Waves */}
@@ -59,18 +54,19 @@ export default function App() {
           </div>
         </div>
 
-      <div className="cursor__dot">
-        <AnimatedCursor
-          innerSize={15}
-          outerSize={15}
-          color="255, 255 ,255"
-          outerAlpha={0.4}
-          innerScale={0.7}
-          outerScale={5}
-        />
-      </div>
+        <div className="cursor__dot">
+          <AnimatedCursor
+            innerSize={15}
+            outerSize={15}
+            color="255, 255 ,255"
+            outerAlpha={0.4}
+            innerScale={0.7}
+            outerScale={5}
+          />
+        </div>
+        
         <div className="content-overlay">
-        <Headermain />
+          <Headermain />
           <Routes>
             {/* Main Portfolio Page */}
             <Route path="/" element={
@@ -134,9 +130,7 @@ export default function App() {
               </>
             } />
 
-            {/* Project Pages */}
-            <Route path="/car-sales-analysis" element={<CarSalesAnalysis />} />
-            <Route path="/amazon-sales-analysis" element={<AmazonSalesAnalysis />} />
+            {/* Individual Project Pages */}
             <Route path="/trust-safety-analytics" element={<TrustSafetyAnalytics />} />
             <Route path="/fraud-detection" element={<FraudDetection />} />
             <Route path="/healthcare-analytics" element={<HealthcareAnalytics />} />
@@ -145,13 +139,10 @@ export default function App() {
             <Route path="/social-media-sentiment" element={<SocialMediaSentiment />} />
             <Route path="/energy-consumption-prediction" element={<EnergyConsumption />} />
             <Route path="/climate-change-analysis" element={<ClimateChangeAnalysis />} />
-            <Route path="/data-pipeline" element={<DataPipeline />} />
-            <Route path="/cybersecurity-threats" element={<CybersecurityThreats />} />
-            <Route path="/customer-behavior" element={<CustomerBehavior />} />
           </Routes>
           <Footer />
         </div>
-    </Router>
+      </Router>
     </ErrorBoundary>
   );
 }
