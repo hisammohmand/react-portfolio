@@ -192,6 +192,10 @@
     font-weight: 600;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
 }
 
 .view-project-btn:hover {
@@ -200,6 +204,12 @@
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 /* Enhanced Portfolio Styles */
@@ -643,8 +653,49 @@
     margin-bottom: 10px;
 }
 
-/* Responsive Modal */
+/* Responsive Design */
 @media (max-width: 768px) {
+    .po_items_ho {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .po_item {
+        height: 380px;
+    }
+
+    .content-below {
+        padding: 15px;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+    }
+
+    .project-description {
+        font-size: 0.8rem;
+    }
+
+    .project-overview p {
+        font-size: 11px;
+    }
+
+    .project-stats {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .stat-item {
+        font-size: 0.8rem;
+    }
+
+    .view-project-btn {
+        padding: 10px 20px;
+        font-size: 0.8rem;
+        max-width: 180px;
+    }
+
     .project-details {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -668,6 +719,48 @@
 
     .project-modal .project-full-content .hero-image {
         height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .po_items_ho {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .po_item {
+        height: 360px;
+    }
+
+    .content-below {
+        padding: 12px;
+    }
+
+    .project-title {
+        font-size: 1.1rem;
+    }
+
+    .project-description {
+        font-size: 0.75rem;
+    }
+
+    .project-overview p {
+        font-size: 10px;
+    }
+
+    .project-stats {
+        margin: 8px 0;
+        padding: 8px;
+    }
+
+    .stat-item {
+        font-size: 0.75rem;
+    }
+
+    .view-project-btn {
+        padding: 8px 16px;
+        font-size: 0.75rem;
+        max-width: 160px;
     }
 }
 

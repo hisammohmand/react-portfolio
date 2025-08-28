@@ -266,17 +266,18 @@ export const Portfolio = () => {
                       </div>
                     </div>
 
-
-
-                    {data.hasDetailedPage ? (
-                      <Link to={data.link} className="view-project-btn">
-                        View Full Project
-                      </Link>
-                    ) : (
-                      <a href={data.link} target="_blank" rel="noopener noreferrer" className="view-project-btn">
-                        View on GitHub
-                      </a>
-                    )}
+                    {/* View Project Button */}
+                    <div className="button-container">
+                      {data.hasDetailedPage ? (
+                        <Link to={data.link} className="view-project-btn">
+                          View Full Project
+                        </Link>
+                      ) : (
+                        <a href={data.link} target="_blank" rel="noopener noreferrer" className="view-project-btn">
+                          View on GitHub
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </div>
               );
