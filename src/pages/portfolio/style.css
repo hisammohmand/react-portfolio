@@ -94,7 +94,8 @@
     background: linear-gradient(135deg, #E6F3FF 0%, #F0F8FF 50%, #E6F3FF 100%);
     transition: 0.3s ease;
     font-size: 0;
-    min-height: 400px;
+    min-height: 320px;
+    max-height: 380px;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -164,11 +165,14 @@
 
 /* Content below image */
 .content-below {
-    padding: 20px;
+    padding: 15px;
     background: linear-gradient(135deg, #F8FBFF 0%, #F0F8FF 100%);
     text-align: left;
     border-radius: 0 0 15px 15px;
     border-top: 1px solid rgba(135, 206, 235, 0.2);
+    min-height: 200px;
+    max-height: 250px;
+    overflow: hidden;
 }
 
 .project-description {

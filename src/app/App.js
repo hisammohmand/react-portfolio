@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Headermain from "../header";
 import { Socialicons } from "../components/socialicons";
 import AnimatedCursor from "../hooks/AnimatedCursor";
@@ -14,10 +14,15 @@ import CarSalesAnalysis from "../pages/car-sales-analysis";
 import AmazonSalesAnalysis from "../pages/amazon-sales-analysis";
 import TrustSafetyAnalytics from "../pages/trust-safety-analytics";
 import FraudDetection from "../pages/fraud-detection";
+import HealthcareAnalytics from "../pages/healthcare-analytics";
+import RealTimeMonitoring from "../pages/real-time-monitoring";
+import EcommerceAnalytics from "../pages/e-commerce-analytics";
+import SocialMediaSentiment from "../pages/social-media-sentiment";
+import EnergyConsumption from "../pages/energy-consumption-prediction";
+import ClimateChangeAnalysis from "../pages/climate-change-analysis";
 import DataPipeline from "../pages/data-pipeline";
 import CybersecurityThreats from "../pages/cybersecurity-threats";
 import CustomerBehavior from "../pages/customer-behavior";
-import RealTimeMonitoring from "../pages/real-time-monitoring";
 import "./App.css";
 
 export default function App() {
@@ -134,10 +139,15 @@ export default function App() {
             <Route path="/amazon-sales-analysis" element={<AmazonSalesAnalysis />} />
             <Route path="/trust-safety-analytics" element={<TrustSafetyAnalytics />} />
             <Route path="/fraud-detection" element={<FraudDetection />} />
+            <Route path="/healthcare-analytics" element={<HealthcareAnalytics />} />
+            <Route path="/real-time-monitoring" element={<RealTimeMonitoring />} />
+            <Route path="/e-commerce-analytics" element={<EcommerceAnalytics />} />
+            <Route path="/social-media-sentiment" element={<SocialMediaSentiment />} />
+            <Route path="/energy-consumption-prediction" element={<EnergyConsumption />} />
+            <Route path="/climate-change-analysis" element={<ClimateChangeAnalysis />} />
             <Route path="/data-pipeline" element={<DataPipeline />} />
             <Route path="/cybersecurity-threats" element={<CybersecurityThreats />} />
             <Route path="/customer-behavior" element={<CustomerBehavior />} />
-            <Route path="/real-time-monitoring" element={<RealTimeMonitoring />} />
           </Routes>
           <Footer />
         </div>

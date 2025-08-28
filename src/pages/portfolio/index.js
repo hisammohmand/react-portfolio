@@ -249,64 +249,24 @@ export const Portfolio = () => {
                     <h3 className="project-title">{data.title}</h3>
                     <p className="project-description">{data.description}</p>
 
-                    {/* Project Overview */}
-                    {data.documentation?.overview && (
-                      <div className="project-overview">
-                        <h4>Project Overview:</h4>
-                        <p>{data.documentation.overview}</p>
-                      </div>
-                    )}
-
-                    {/* Key Features */}
-                    {data.documentation?.keyFeatures && (
-                      <div className="project-features">
-                        <h4>Key Features:</h4>
-                        <ul>
-                          {data.documentation.keyFeatures.slice(0, 3).map((feature, index) => (
-                            <li key={index}>{feature}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                    {/* Quick Overview */}
+                    <div className="project-overview">
+                      <p>{data.description}</p>
+                    </div>
 
                     {/* Quick Stats */}
                     <div className="project-stats">
                       <div className="stat-item">
                         <span className="stat-label">Duration:</span>
-                        <span className="stat-value">{data.documentation?.duration || "4-6 months"}</span>
+                        <span className="stat-value">4-6 months</span>
                       </div>
                       <div className="stat-item">
-                        <span className="stat-label">Team:</span>
-                        <span className="stat-value">{data.documentation?.teamSize || "2-4 members"}</span>
-                      </div>
-                      <div className="stat-item">
-                        <span className="stat-label">Key Metric:</span>
-                        <span className="stat-value">{data.results?.metrics ? Object.keys(data.results.metrics)[0] : "High Accuracy"}</span>
+                        <span className="stat-label">Technologies:</span>
+                        <span className="stat-value">Python, ML, Analytics</span>
                       </div>
                     </div>
 
-                    {/* Technologies */}
-                    <div className="project-tech">
-                      <h4>Technologies:</h4>
-                      <div className="tech-tags">
-                        {data.documentation?.technologies ? (
-                          <>
-                            {data.documentation.technologies.slice(0, 3).map((tech, index) => (
-                              <span key={index} className="tech-tag">{tech}</span>
-                            ))}
-                            {data.documentation.technologies.length > 3 && (
-                              <span className="tech-tag">+{data.documentation.technologies.length - 3} more</span>
-                            )}
-                          </>
-                        ) : (
-                          <>
-                            <span className="tech-tag">Python</span>
-                            <span className="tech-tag">Machine Learning</span>
-                            <span className="tech-tag">Data Analysis</span>
-                          </>
-                        )}
-                      </div>
-                    </div>
+
 
                     {data.hasDetailedPage ? (
                       <Link to={data.link} className="view-project-btn">
