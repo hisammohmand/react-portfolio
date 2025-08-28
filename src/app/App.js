@@ -64,7 +64,7 @@ export default function App() {
             outerScale={5}
           />
         </div>
-        
+
         <div className="content-overlay">
           <Headermain />
           <Routes>
