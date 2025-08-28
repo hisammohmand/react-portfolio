@@ -43,8 +43,8 @@ const FraudDetection = () => {
                         <h3>🎯 Project Overview</h3>
                         <div className="overview-content">
                             <p>
-                                The Financial Fraud Detection Model is an advanced machine learning system designed to identify and prevent fraudulent activities 
-                                in real-time financial transactions. This project leverages sophisticated algorithms for pattern recognition, anomaly detection, 
+                                The Financial Fraud Detection Model is an advanced machine learning system designed to identify and prevent fraudulent activities
+                                in real-time financial transactions. This project leverages sophisticated algorithms for pattern recognition, anomaly detection,
                                 and predictive modeling to ensure secure financial operations.
                             </p>
                             <div className="overview-highlights">

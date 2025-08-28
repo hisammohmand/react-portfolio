@@ -43,8 +43,8 @@ const TrustSafetyAnalytics = () => {
                         <h3>🎯 Project Overview</h3>
                         <div className="overview-content">
                             <p>
-                                The Trust & Safety Analytics Dashboard is a comprehensive platform designed to monitor and analyze platform safety metrics in real-time. 
-                                This project leverages advanced machine learning algorithms to detect threats, assess risks, and provide automated incident response 
+                                The Trust & Safety Analytics Dashboard is a comprehensive platform designed to monitor and analyze platform safety metrics in real-time.
+                                This project leverages advanced machine learning algorithms to detect threats, assess risks, and provide automated incident response
                                 capabilities while ensuring platform security and user trust.
                             </p>
                             <div className="overview-highlights">

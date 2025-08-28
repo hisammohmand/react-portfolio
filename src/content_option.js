@@ -88,7 +88,8 @@ const dataportfolio = [{
     title: "Trust & Safety Analytics Dashboard",
     description: "Comprehensive dashboard for monitoring and analyzing trust and safety metrics across platforms.",
     link: "/trust-safety-analytics",
-    hasDetailedPage: true
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/trust-safety-analytics"
 },
 {
     img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
@@ -96,7 +97,8 @@ const dataportfolio = [{
     title: "Financial Fraud Detection Model",
     description: "Machine learning model for detecting fraudulent activities in real-time.",
     link: "/fraud-detection",
-    hasDetailedPage: true
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/fraud-detection"
 },
 {
     img: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=400&h=300&fit=crop",
@@ -104,7 +106,8 @@ const dataportfolio = [{
     title: "Healthcare Analytics Dashboard",
     description: "Patient data analysis and healthcare insights platform.",
     link: "/healthcare-analytics",
-    hasDetailedPage: true
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/healthcare-analytics"
 },
 {
     img: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=300&fit=crop",
@@ -112,7 +115,8 @@ const dataportfolio = [{
     title: "Real-time Data Monitoring",
     description: "Real-time monitoring system for data quality and system performance.",
     link: "/real-time-monitoring",
-    hasDetailedPage: true
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/real-time-monitoring"
 },
 {
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
@@ -120,7 +124,8 @@ const dataportfolio = [{
     title: "E-commerce Analytics Platform",
     description: "Sales and customer behavior analysis for e-commerce platforms.",
     link: "/e-commerce-analytics",
-    hasDetailedPage: true
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/ecommerce-analytics"
 },
 {
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
@@ -128,7 +133,8 @@ const dataportfolio = [{
     title: "Social Media Sentiment Analysis",
     description: "NLP-based sentiment analysis for social media content.",
     link: "/social-media-sentiment",
-    hasDetailedPage: true
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/social-media-sentiment"
 },
 {
     img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&h=300&fit=crop",
@@ -136,7 +142,8 @@ const dataportfolio = [{
     title: "Energy Consumption Prediction",
     description: "Time series forecasting for energy consumption patterns.",
     link: "/energy-consumption-prediction",
-    hasDetailedPage: true
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/energy-consumption-prediction"
 },
 {
     img: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
@@ -144,7 +151,8 @@ const dataportfolio = [{
     title: "Climate Change Data Analysis",
     description: "Environmental data analysis for climate change insights.",
     link: "/climate-change-analysis",
-    hasDetailedPage: true
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/climate-change-analysis"
 }
 ];
 
