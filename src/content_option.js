@@ -89,7 +89,8 @@ const dataportfolio = [{
     description: "Comprehensive dashboard for monitoring and analyzing trust and safety metrics across platforms.",
     link: "/trust-safety-analytics",
     hasDetailedPage: true,
-    githubLink: "https://github.com/hisammohmand/trust-safety-analytics"
+    githubLink: "https://github.com/hisammohmand/trust-safety-analytics",
+    liveDemo: "https://trust-safety-demo.vercel.app"
 },
 {
     img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
@@ -98,7 +99,8 @@ const dataportfolio = [{
     description: "Machine learning model for detecting fraudulent activities in real-time.",
     link: "/fraud-detection",
     hasDetailedPage: true,
-    githubLink: "https://github.com/hisammohmand/fraud-detection"
+    githubLink: "https://github.com/hisammohmand/fraud-detection",
+    liveDemo: "https://fraud-detection-demo.vercel.app"
 },
 {
     img: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=400&h=300&fit=crop",
@@ -107,7 +109,8 @@ const dataportfolio = [{
     description: "Patient data analysis and healthcare insights platform.",
     link: "/healthcare-analytics",
     hasDetailedPage: true,
-    githubLink: "https://github.com/hisammohmand/healthcare-analytics"
+    githubLink: "https://github.com/hisammohmand/healthcare-analytics",
+    liveDemo: "https://healthcare-analytics-demo.vercel.app"
 },
 {
     img: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=300&fit=crop",
@@ -116,7 +119,8 @@ const dataportfolio = [{
     description: "Real-time monitoring system for data quality and system performance.",
     link: "/real-time-monitoring",
     hasDetailedPage: true,
-    githubLink: "https://github.com/hisammohmand/real-time-monitoring"
+    githubLink: "https://github.com/hisammohmand/real-time-monitoring",
+    liveDemo: "https://real-time-monitoring-demo.vercel.app"
 },
 {
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
@@ -125,16 +129,18 @@ const dataportfolio = [{
     description: "Sales and customer behavior analysis for e-commerce platforms.",
     link: "/e-commerce-analytics",
     hasDetailedPage: true,
-    githubLink: "https://github.com/hisammohmand/ecommerce-analytics"
+    githubLink: "https://github.com/hisammohmand/ecommerce-analytics",
+    liveDemo: "https://ecommerce-analytics-demo.vercel.app"
 },
 {
-    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    img: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop",
     alt: "Social Media Sentiment Analysis",
     title: "Social Media Sentiment Analysis",
     description: "NLP-based sentiment analysis for social media content.",
     link: "/social-media-sentiment",
     hasDetailedPage: true,
-    githubLink: "https://github.com/hisammohmand/social-media-sentiment"
+    githubLink: "https://github.com/hisammohmand/social-media-sentiment",
+    liveDemo: "https://social-media-sentiment-demo.vercel.app"
 },
 {
     img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&h=300&fit=crop",
@@ -143,7 +149,8 @@ const dataportfolio = [{
     description: "Time series forecasting for energy consumption patterns.",
     link: "/energy-consumption-prediction",
     hasDetailedPage: true,
-    githubLink: "https://github.com/hisammohmand/energy-consumption-prediction"
+    githubLink: "https://github.com/hisammohmand/energy-consumption-prediction",
+    liveDemo: "https://energy-prediction-demo.vercel.app"
 },
 {
     img: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
@@ -152,7 +159,68 @@ const dataportfolio = [{
     description: "Environmental data analysis for climate change insights.",
     link: "/climate-change-analysis",
     hasDetailedPage: true,
-    githubLink: "https://github.com/hisammohmand/climate-change-analysis"
+    githubLink: "https://github.com/hisammohmand/climate-change-analysis",
+    liveDemo: "https://climate-analysis-demo.vercel.app"
+},
+{
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    alt: "Amazon Sales Analysis",
+    title: "Amazon Sales Analysis",
+    description: "Comprehensive analysis of Amazon sales data and market trends.",
+    link: "/amazon-sales-analysis",
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/amazon-sales-analysis",
+    liveDemo: "https://amazon-sales-demo.vercel.app"
+},
+{
+    img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&h=300&fit=crop",
+    alt: "Car Sales Analysis",
+    title: "Car Sales Analysis",
+    description: "Automotive market analysis and sales forecasting.",
+    link: "/car-sales-analysis",
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/car-sales-analysis",
+    liveDemo: "https://car-sales-demo.vercel.app"
+},
+{
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    alt: "Customer Behavior Analysis",
+    title: "Customer Behavior Analysis",
+    description: "Deep dive into customer behavior patterns and preferences.",
+    link: "/customer-behavior",
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/customer-behavior",
+    liveDemo: "https://customer-behavior-demo.vercel.app"
+},
+{
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    alt: "Cybersecurity Threats Analysis",
+    title: "Cybersecurity Threats Analysis",
+    description: "Analysis of cybersecurity threats and security patterns.",
+    link: "/cybersecurity-threats",
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/cybersecurity-threats",
+    liveDemo: "https://cybersecurity-demo.vercel.app"
+},
+{
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    alt: "Data Pipeline Automation",
+    title: "Data Pipeline Automation",
+    description: "Automated data processing and ETL pipeline development.",
+    link: "/data-pipeline",
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/data-pipeline",
+    liveDemo: "https://data-pipeline-demo.vercel.app"
+},
+{
+    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    alt: "Exercise Distributions Analysis",
+    title: "Exercise Distributions Analysis",
+    description: "Statistical analysis of exercise patterns and distributions.",
+    link: "/exercise-distributions",
+    hasDetailedPage: true,
+    githubLink: "https://github.com/hisammohmand/exercise-distributions",
+    liveDemo: "https://exercise-distributions-demo.vercel.app"
 }
 ];
 

@@ -318,6 +318,9 @@ export const Portfolio = () => {
             <Col lg="8">
               <h1 className="display-4 mb-4 portfolio-title">
                 <span className="title-highlight">Professional Portfolio</span>
+                <span style={{ fontSize: '1rem', color: '#4ecdc4', display: 'block', marginTop: '0.5rem' }}>
+                  ✨ Enhanced Version - Updated {new Date().toLocaleDateString()}
+                </span>
               </h1>{" "}
               <hr className="t_border my-4 ml-0 text-left" />
               <p className="lead portfolio-subtitle">
@@ -394,102 +397,86 @@ export const Portfolio = () => {
 
                   {/* Project Content */}
                   <div className="project-content">
+                    {/* Project Header */}
                     <div className="project-header">
                       <h3 className="project-title">{data.title}</h3>
                       <div className="header-badges">
                         <Badge bg="light" text="dark" className="category-badge">
                           {data.category}
                         </Badge>
-                        {data.hasDetailedPage && (
-                          <Badge bg="success" className="detail-badge">
-                            📄 Detailed Page
-                          </Badge>
-                        )}
+                        <Badge bg="success" className="status-badge">
+                          {data.status}
+                        </Badge>
                       </div>
                     </div>
 
-                    <p className="project-description">{data.description}</p>
+                    {/* Project Description */}
+                    <div className="project-description">
+                      <p>{data.description}</p>
+                    </div>
 
-                    {/* Project Meta Info */}
-                    <div className="project-meta">
-                      <div className="meta-item">
-                        <span className="meta-icon">📅</span>
-                        <span className="meta-text">{data.completionDate}</span>
+                    {/* Project Stats */}
+                    <div className="project-stats">
+                      <div className="stat-item">
+                        <span className="stat-icon">📅</span>
+                        <span className="stat-label">Date:</span>
+                        <span className="stat-value">{data.completionDate}</span>
                       </div>
-                      <div className="meta-item">
-                        <span className="meta-icon">⏱️</span>
-                        <span className="meta-text">{data.documentation.duration}</span>
+                      <div className="stat-item">
+                        <span className="stat-icon">⏱️</span>
+                        <span className="stat-label">Duration:</span>
+                        <span className="stat-value">{data.documentation.duration}</span>
                       </div>
-                      <div className="meta-item">
-                        <span className="meta-icon">👥</span>
-                        <span className="meta-text">{data.documentation.teamSize}</span>
+                      <div className="stat-item">
+                        <span className="stat-icon">👥</span>
+                        <span className="stat-label">Team:</span>
+                        <span className="stat-value">{data.documentation.teamSize}</span>
+                      </div>
+                      <div className="stat-item">
+                        <span className="stat-icon">🎯</span>
+                        <span className="stat-label">Level:</span>
+                        <span className="stat-value">{data.difficulty}</span>
                       </div>
                     </div>
 
                     {/* Key Metrics */}
-                    <div className="project-metrics">
-                      <h6 className="metrics-title">Key Performance Metrics:</h6>
-                      <div className="metrics-grid">
+                    <div className="metrics-section">
+                      <h6 className="section-title">📊 Key Metrics</h6>
+                      <div className="metrics-list">
                         {Object.entries(data.results.metrics).slice(0, 2).map(([key, value], index) => (
-                          <div key={index} className="metric-card">
-                            <div className="metric-label">{key}</div>
-                            <div className="metric-value">{value}</div>
+                          <div key={index} className="metric-item">
+                            <span className="metric-name">{key}:</span>
+                            <span className="metric-value">{value}</span>
                           </div>
                         ))}
                       </div>
                     </div>
 
                     {/* Technologies */}
-                    <div className="project-technologies">
-                      <h6 className="tech-title">Technologies Used:</h6>
-                      <div className="tech-tags">
-                        {data.documentation.technologies.slice(0, 4).map((tech, index) => (
-                          <Badge key={index} bg="outline-primary" className="tech-badge">
-                            {tech}
-                          </Badge>
+                    <div className="tech-section">
+                      <h6 className="section-title">🛠️ Technologies</h6>
+                      <div className="tech-list">
+                        {data.documentation.technologies.slice(0, 3).map((tech, index) => (
+                          <span key={index} className="tech-tag">{tech}</span>
                         ))}
-                        {data.documentation.technologies.length > 4 && (
-                          <Badge bg="outline-secondary" className="tech-badge">
-                            +{data.documentation.technologies.length - 4} more
-                          </Badge>
+                        {data.documentation.technologies.length > 3 && (
+                          <span className="tech-tag more">+{data.documentation.technologies.length - 3}</span>
                         )}
                       </div>
                     </div>
 
-                    {/* Professional Action Buttons */}
-                    <div className="project-actions">
-                      <div className="action-buttons">
-                        {data.hasDetailedPage && (
-                          <Link to={data.link} className="view-project-btn primary-btn">
-                            <span className="btn-text">View Full Project</span>
-                            <span className="btn-arrow">→</span>
-                          </Link>
-                        )}
-                        {data.liveDemo && (
-                          <a
-                            href={data.liveDemo}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="view-project-btn demo-btn"
-                            title="View live demo"
-                          >
-                            <span className="btn-text">Live Demo</span>
-                            <span className="btn-icon">🚀</span>
-                          </a>
-                        )}
-                        {data.githubLink && (
-                          <a
-                            href={data.githubLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="view-project-btn secondary-btn"
-                            title="View project code on GitHub"
-                          >
-                            <span className="btn-text">View Code</span>
-                            <span className="btn-icon">📁</span>
-                          </a>
-                        )}
-                      </div>
+                    {/* Impact */}
+                    <div className="impact-section">
+                      <h6 className="section-title">💡 Impact</h6>
+                      <div className="impact-value">{data.impact}</div>
+                    </div>
+
+                    {/* Action Buttons */}
+                    <div className="action-buttons">
+                      <Link to={data.link} className="btn btn-primary">
+                        <span>View Analysis</span>
+                        <span className="btn-icon">📊</span>
+                      </Link>
                     </div>
                   </div>
                 </div>
